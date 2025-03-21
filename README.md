@@ -1,8 +1,8 @@
 # pasword-cracker
  
-go build
-ps.exe -threads=2
-ps.exe -threads=2 -resume
+go build \
+ps.exe -threads=2 \
+ps.exe -threads=2 -resume 
 
 # flags
 + -threads<int>
